@@ -12,7 +12,7 @@ const botaoIniciar = document.querySelector(".iniciar-btn");
 const telaInicial = document.querySelector(".tela-inicial");
 
 
-let atual = 0; 
+le.t atual = 0; 
 let perguntaAtual;
 let historiaFinal = "";
 
