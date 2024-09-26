@@ -1,8 +1,4 @@
 
-RAFAEL DA COSTA DE OLIVEIRA <rafael.costa.oliveira@escola.pr.gov.br>
-07:35 (há 4 minutos)
-para mim
-
 import { aleatorio, nome } from './aleatorio.js';
 import { perguntas } from './perguntas.js';
 
@@ -56,7 +52,13 @@ function mostraAlternativas(){
 function respostaSelecionada(opcaoSelecionada){
     const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + " ";
-    atual++;
+    if(opçãoselecionada.proxima !== undefined) {
+        atual = opcaoselecionada.proxima;
+    }else{
+    }
+        mostraresultado();
+}
+        
     mostraPergunta();
 }
 
