@@ -12,7 +12,7 @@ const botaoIniciar = document.querySelector(".iniciar-btn");
 const telaInicial = document.querySelector(".tela-inicial");
 
 
-le.t atual = 0; 
+let atual = 0; 
 let perguntaAtual;
 let historiaFinal = "";
 
@@ -54,15 +54,14 @@ function respostaSelecionada(opcaoSelecionada){
     if(opçãoselecionada.proxima !== undefined) {
         atual = opcaoselecionada.proxima;
     }else{
-    }
-        mostraresultado();
+        mostraResultado();
+        return;
 }
-        
     mostraPergunta();
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = `Em 2049, &{nome}`;
+    caixaPerguntas.textContent = `Em 2049, ${nome}`;
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = ""; 
     caixaResultado.classList.add("mostrar");
