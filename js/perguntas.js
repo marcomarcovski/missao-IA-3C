@@ -1,61 +1,62 @@
 export const perguntas = [
     {
-        enunciado: "Você gosta de volei?",
+        enunciado: "Você gosta de futebol ?",
         alternativas: [
             {
-                texto: "Sim, eu gosto",
+                texto: "Sim",
                 afirmacao: [
-                    "Que legal, você gosta mesmo de volei",
-                    "Que pena, parece que você não gosta de volei"
-                    ]
+                    "Ao assistir, ele está sendo um futeboleiro"
+                    ],
+                proxima: 1,
             },
             {
-                texto: "Não,eu detesto",
+                texto: "Não",
                 afirmacao: [
-                    "Que pena, parece que você não gosta de volei",
-                    "Que legal, você gosta mesmo de volei"
-                    ]
-            }          
-           
+                    "Ao não assistir, ele está perdendo seu tempo"
+                    ],
+                proxima: 1, 
+            },
         ]
     },
+    
     {
-        enunciado: "você gosta de ler?",
+        enunciado: "quem ganhou brasileirão do ano passado ?",
         alternativas: [
             {
-                texto:"Sim, eu gosto",
+                texto:"palmeiras",
                 afirmacao: [
-                    "que legal, você gosta de ler",
-                    "Não, detesto ler"
-                    ]
+                    " apos trepeço do botafogo. "
+                    ],
+                proxima: 2, 
             },
             {
-                texto: "Não, detesto ler",
+                texto: "botafogo",
                 afirmacao: [
-                    "que legal, você gosta de ler",
-                    ""Não, detesto ler"
-                    ]
-            }
+                    " apos tropeço do palmeiras "
+                    ],
+                proxima: 2, 
+            },
         ]
     },
+    
     {
-        enunciado: "Você gosta de cantar?",
+        enunciado: "Você prefere que tipo de modalidade ?",
         alternativas: [
             {
-                texto:"Sim, sou um ótimo cantor",
+                texto:"futebol de campo",
                 afirmacao: [
-                    "Que legal,eu concordo",
-                    "Entendi, cada um tem seu talento"
-                    ]
+                    "Quando ele escolhe futebol de campo ele mostra o quão burro ele é,"
+                    ],
+                proxima: 3, 
             },
             {
-                texto:"Não, eu prefiro outro talento",
+                texto:"futsal",
                 afirmacao: [
-                    "Que legal,eu concordo",
-                    "Entendi, cada um tem seu talento"
-                    ]
-            }
-           
+                    "Quando ele escolhe futsal ele mostra o quão sábio ele é, "
+                ],
+                proxima: 3, 
+           ] 
+            },   
         ]
     },
 ];
