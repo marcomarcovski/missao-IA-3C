@@ -55,7 +55,6 @@ export const perguntas = [
                     "Quando ele escolhe futsal ele mostra o quão sábio ele é, "
                 ],
                 proxima: 3, 
-           ] 
             },   
         ]
     },
